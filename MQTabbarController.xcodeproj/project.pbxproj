@@ -12,6 +12,19 @@
 		7A35584E210EA15000150E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A35584C210EA15000150E16 /* Main.storyboard */; };
 		7A355850210EA15200150E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A35584F210EA15200150E16 /* Assets.xcassets */; };
 		7A355853210EA15200150E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A355851210EA15200150E16 /* LaunchScreen.storyboard */; };
+		7A35585B210EA1B100150E16 /* MQTabbarRootVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A35585A210EA1B100150E16 /* MQTabbarRootVC.storyboard */; };
+		7A35585D210EA23300150E16 /* MQTabbarRootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A35585C210EA23300150E16 /* MQTabbarRootVC.swift */; };
+		7A35585F210EA26300150E16 /* MQTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A35585E210EA26300150E16 /* MQTabbarViewController.swift */; };
+		7A355862210EA2C900150E16 /* MQTabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A355860210EA2C900150E16 /* MQTabCell.swift */; };
+		7A355863210EA2C900150E16 /* MQTabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A355861210EA2C900150E16 /* MQTabCell.xib */; };
+		7A355866210EA53E00150E16 /* Root1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A355864210EA53E00150E16 /* Root1VC.swift */; };
+		7A355867210EA53E00150E16 /* Root1VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A355865210EA53E00150E16 /* Root1VC.xib */; };
+		7A35586A210EA54C00150E16 /* Root2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A355868210EA54C00150E16 /* Root2VC.swift */; };
+		7A35586B210EA54C00150E16 /* Root2VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A355869210EA54C00150E16 /* Root2VC.xib */; };
+		7A35586E210EA55C00150E16 /* Root3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A35586C210EA55C00150E16 /* Root3VC.swift */; };
+		7A35586F210EA55C00150E16 /* Root3VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A35586D210EA55C00150E16 /* Root3VC.xib */; };
+		7A355872210EA56C00150E16 /* Root4VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A355870210EA56C00150E16 /* Root4VC.swift */; };
+		7A355873210EA56C00150E16 /* Root4VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A355871210EA56C00150E16 /* Root4VC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +35,19 @@
 		7A35584F210EA15200150E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A355852210EA15200150E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A355854210EA15200150E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A35585A210EA1B100150E16 /* MQTabbarRootVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MQTabbarRootVC.storyboard; sourceTree = "<group>"; };
+		7A35585C210EA23300150E16 /* MQTabbarRootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTabbarRootVC.swift; sourceTree = "<group>"; };
+		7A35585E210EA26300150E16 /* MQTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTabbarViewController.swift; sourceTree = "<group>"; };
+		7A355860210EA2C900150E16 /* MQTabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTabCell.swift; sourceTree = "<group>"; };
+		7A355861210EA2C900150E16 /* MQTabCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MQTabCell.xib; sourceTree = "<group>"; };
+		7A355864210EA53E00150E16 /* Root1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root1VC.swift; sourceTree = "<group>"; };
+		7A355865210EA53E00150E16 /* Root1VC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Root1VC.xib; sourceTree = "<group>"; };
+		7A355868210EA54C00150E16 /* Root2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root2VC.swift; sourceTree = "<group>"; };
+		7A355869210EA54C00150E16 /* Root2VC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Root2VC.xib; sourceTree = "<group>"; };
+		7A35586C210EA55C00150E16 /* Root3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root3VC.swift; sourceTree = "<group>"; };
+		7A35586D210EA55C00150E16 /* Root3VC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Root3VC.xib; sourceTree = "<group>"; };
+		7A355870210EA56C00150E16 /* Root4VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root4VC.swift; sourceTree = "<group>"; };
+		7A355871210EA56C00150E16 /* Root4VC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Root4VC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +83,19 @@
 				7A355848210EA15000150E16 /* AppDelegate.swift */,
 				7A35584A210EA15000150E16 /* ViewController.swift */,
 				7A35584C210EA15000150E16 /* Main.storyboard */,
+				7A35585A210EA1B100150E16 /* MQTabbarRootVC.storyboard */,
+				7A35585C210EA23300150E16 /* MQTabbarRootVC.swift */,
+				7A35585E210EA26300150E16 /* MQTabbarViewController.swift */,
+				7A355860210EA2C900150E16 /* MQTabCell.swift */,
+				7A355861210EA2C900150E16 /* MQTabCell.xib */,
+				7A355864210EA53E00150E16 /* Root1VC.swift */,
+				7A355865210EA53E00150E16 /* Root1VC.xib */,
+				7A355868210EA54C00150E16 /* Root2VC.swift */,
+				7A355869210EA54C00150E16 /* Root2VC.xib */,
+				7A35586C210EA55C00150E16 /* Root3VC.swift */,
+				7A35586D210EA55C00150E16 /* Root3VC.xib */,
+				7A355870210EA56C00150E16 /* Root4VC.swift */,
+				7A355871210EA56C00150E16 /* Root4VC.xib */,
 				7A35584F210EA15200150E16 /* Assets.xcassets */,
 				7A355851210EA15200150E16 /* LaunchScreen.storyboard */,
 				7A355854210EA15200150E16 /* Info.plist */,
@@ -122,9 +161,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A35586B210EA54C00150E16 /* Root2VC.xib in Resources */,
+				7A355867210EA53E00150E16 /* Root1VC.xib in Resources */,
 				7A355853210EA15200150E16 /* LaunchScreen.storyboard in Resources */,
+				7A355873210EA56C00150E16 /* Root4VC.xib in Resources */,
 				7A355850210EA15200150E16 /* Assets.xcassets in Resources */,
+				7A35586F210EA55C00150E16 /* Root3VC.xib in Resources */,
+				7A355863210EA2C900150E16 /* MQTabCell.xib in Resources */,
 				7A35584E210EA15000150E16 /* Main.storyboard in Resources */,
+				7A35585B210EA1B100150E16 /* MQTabbarRootVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +180,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A35586E210EA55C00150E16 /* Root3VC.swift in Sources */,
+				7A355866210EA53E00150E16 /* Root1VC.swift in Sources */,
+				7A35586A210EA54C00150E16 /* Root2VC.swift in Sources */,
+				7A355862210EA2C900150E16 /* MQTabCell.swift in Sources */,
+				7A355872210EA56C00150E16 /* Root4VC.swift in Sources */,
+				7A35585F210EA26300150E16 /* MQTabbarViewController.swift in Sources */,
 				7A35584B210EA15000150E16 /* ViewController.swift in Sources */,
 				7A355849210EA15000150E16 /* AppDelegate.swift in Sources */,
+				7A35585D210EA23300150E16 /* MQTabbarRootVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
